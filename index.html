@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Da-Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #f4d88a;
+      color: #2b2416;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 50px 24px;
+      text-align: center;
+    }
+
+    .site-title {
+      font-size: 3rem;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      margin-bottom: 35px;
+      font-style: italic;
+      color: #5b3b00;
+    }
+
+    p {
+      font-size: 1.15rem;
+      margin: 22px auto;
+      max-width: 760px;
+    }
+
+    a {
+      color: #5b3b00;
+      font-weight: bold;
+    }
+
+    .lower-section {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+      text-align: left;
+    }
+
+    .map-image {
+      width: 300px;
+      flex-shrink: 0;
+    }
+
+    .map-image img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      border: 4px solid #2b2416;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+
+    .right-text {
+      max-width: 450px;
+    }
+
+    hr {
+      margin-top: 60px;
+      border: none;
+      border-top: 1px solid #7a6740;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #5b3b00;
+    }
+
+    @media (max-width: 800px) {
+      .lower-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .right-text {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="site-title">Da-Map.com</div>
+    <div class="tagline">Discover More</div>
+
+    <p>
+      Da-Map.com is the online arm of <em>Discovery Map of Oahu</em>.
+    </p>
+
+    <p>
+      In 2026–2027, half a million hand-drawn, color-printed
+      <a href="https://discoverymap.com" target="_blank" rel="noopener">Discovery Maps</a>
+      of the island of Oahu will be distributed to visitors.
+    </p>
+
+    <div class="lower-section">
+
+      <div class="map-image">
+        <img src="Oahu_map.jpg" alt="Discovery Map of Oahu">
+      </div>
+
+      <div class="right-text">
+
+        <p>
+          QR codes throughout the map connect visitors to activities, tours,
+          attractions, and local businesses.
+        </p>
+
+        <p>
+          As Da-Map.com grows, additional content, maps, and visitor resources
+          for Oahu, Kauai, and Maui will be added.
+        </p>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="footer">
+      © 2026 Da-Map.com. All rights reserved.
+    </div>
+
+  </div>
+</body>
+</html>
